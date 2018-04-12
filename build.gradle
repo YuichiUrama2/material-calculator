@@ -31,6 +31,7 @@ allprojects {
 }
 
 apply plugin: "com.android.application"
+apply plugin: 'maven' 
 
 android {
     compileSdkVersion 22
