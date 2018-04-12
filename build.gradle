@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+apply plugin: "maven"
+
 buildscript {
     repositories {
         mavenCentral()
@@ -31,7 +33,6 @@ allprojects {
 }
 
 apply plugin: "com.android.application"
-apply plugin: 'maven' 
 
 android {
     compileSdkVersion 22
